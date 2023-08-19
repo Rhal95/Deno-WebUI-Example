@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-read --allow-env --allow-write --allow-ffi --unstable src/main.tsx"
+  },
+  "importMap": "importMap.json",
+  "compilerOptions": {
+    "jsx": "react-jsxdev",
+    "jsxImportSource": "react"
+  }
+}
